@@ -8,7 +8,7 @@ apiRouter.use(express.json());
 apiRouter.use(cors());
 
 apiRouter.get("/", (req, res) => {
-    return res.send("API route");
+    return res.send("Datacont Challenge Backend Server");
 });
 
 apiRouter.get("/books", BooksController.getBooks);
