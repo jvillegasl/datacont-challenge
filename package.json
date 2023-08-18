@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev -r tsconfig-paths/register ./src/app.ts"
+    "seed:books": "npx ts-node ./src/seeders/books.ts",
+    "dev": "ts-node-dev -r tsconfig-paths/register ./src/app.ts",
+    "start": "ts-node -r tsconfig-paths/register ./src/app.ts"
   },
   "keywords": [],
   "author": "",
