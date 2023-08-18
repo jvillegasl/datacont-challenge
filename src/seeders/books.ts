@@ -1,7 +1,7 @@
 import fs from "fs";
 
 const FILE_PATH = "src/data/books.json";
-const ITEMS_COUNT = 20;
+const ITEMS_COUNT = 50;
 
 const fileExists = fs.existsSync(FILE_PATH);
 
@@ -17,7 +17,7 @@ for (let i = 0; i < ITEMS_COUNT; i++) {
     const newBook = {
         id: i,
         title: `Title N°${i}`,
-        description: `description N°${i}`,
+        description: `Description N°${i}`,
         price: Math.floor(Math.random() * 250 + 250),
         author: `Author N°${i}`,
     };
