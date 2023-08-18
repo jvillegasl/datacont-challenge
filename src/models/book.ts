@@ -18,10 +18,7 @@ export class Book {
     }
 
     public static findById(id: string) {
-        const filePath = "src/data/books.json";
-        const jsonData = fs.readFileSync(filePath, "utf-8");
-        const books: IBook[] = JSON.parse(jsonData);
-
+        const books = this.all();
         const book = books.find((t) => t.id.toString() === id);
 
         return book;
