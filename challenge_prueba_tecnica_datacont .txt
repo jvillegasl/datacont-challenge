@@ -1,0 +1,39 @@
+CHALLENGE PRUEBA TECNICA - DATACONT SISTEMAS 
+
+--------- BACK END -----------
+1.- Desarrollar una API basica con NodeJS y express y que levante en el puerto 5000
+2.- Definir 2 endpoints para que el front pueda utilizarlos ( primero: /books, segundo: /books/details/:id)
+3.- Emular base de datos de libros con un Array de 20 items como minimo
+
+Importante:
+- Usar sintaxis de JS moderno y legible
+- Manejar los errores aunque sea con console.log()
+- El uso de archivos .env es opcional
+
+
+--------- FRONT END ----------
+1.- Listar todos los libros obtenidos con el primer endpoint (El array de los libros se encuentra en el key entries del response)
+2.- Renderizar el listado de libros con HTML y CSS puede ser en forma de lista o tabla (usar solo 2 o 3 keys por item)
+2.- Al darle click a cualquier item del listado  de libros obtener el detalle del libro con el segundo endpoint (ejem. http://localhost:5000/books/details/${YOUR_ID_BOOK})
+4.- Mostrar los datos del detalle con HTML y CSS 
+
+Importante:
+- Usar fetch nativo para las peticiones no instalar dependencias
+- Usar sintaxis de JS moderno y legible
+- Manejar los errores de las peticiones aunque sea con console.log()
+- El uso de CSS es a criterio de usted.
+
+Recursos:
+1° endpoint = http://localhost:5000/books
+2° endpoint = http://localhost:5000/books/details/${YOUR_ID_BOOK}
+
+
+
+
+
+
+
+
+
+
+
