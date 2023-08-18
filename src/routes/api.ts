@@ -8,7 +8,8 @@ apiRouter.use(express.json());
 apiRouter.use(cors());
 
 apiRouter.get("/", (req, res) => {
-    return res.send("API route")
-})
+    return res.send("API route");
+});
 
 apiRouter.get("/books", BooksController.getBooks);
+apiRouter.get("/books/details/:id", BooksController.getBook);
